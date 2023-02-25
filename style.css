@@ -290,7 +290,8 @@ h2::after{
   background:rgba(240, 248, 255, 0.01);
   border-radius:50%;
   opacity:0.5;
-  animation: rise 10s infinite ease-in;
+  animation: rise 10s infinite ease-in,
+  lights 5s 750ms linear infinite;
 }
 .bubble:nth-child(1){
   width:40px;
@@ -317,7 +318,7 @@ h2::after{
   height:80px;
   left:50%;
   animation-duration:11s;
-  animation-delay:0s;
+  animation-delay:1s;
 }
 .bubble:nth-child(5){
   width:35px;
